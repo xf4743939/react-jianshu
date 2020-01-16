@@ -1,0 +1,90 @@
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  line-height: 40px;
+  height: 40px;
+  background: #975ec9;
+  color: #fff;
+  z-index: 99;
+}
+
+.header-container .title {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+}
+
+.header-container .iconfont {
+  color: #fff;
+}
+
+.icon-left {
+  position: absolute;
+  left: 15px;
+}
+
+.icon-right {
+  position: absolute;
+  right: 15px;
+}
+
+.nav-wrap {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  top: 40px;
+  transform: translateX(-100%);
+  transition: all 300ms;
+  opacity: 0;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.nav-wrap.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.nav-wrap .nav-link {
+  display: block;
+  position: relative;
+  width: 100%;
+  font-size: 16px;
+  color: #333;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  padding: 8px 15px 8px 25px;
+}
+
+.nav-wrap .icon {
+  color: #999;
+  float: right;
+  font-size: 28px;
+}
+
+.header-link {
+  color: #fff;
+}
+
+/* .fade-enter {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.fade-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 300ms;
+}
+.fade-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+.fade-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 300ms;
+} */

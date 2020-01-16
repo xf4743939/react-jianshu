@@ -1,0 +1,41 @@
+.record-main {
+  margin-top: 40px;
+
+}
+
+.record-nav {
+  color: #333;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #fff;
+
+}
+
+.record-nav .nav-link {
+  position: relative;
+  color: #333;
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.record-nav .nav-link::after {
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  height: 60%;
+  top: 20%;
+  width: 1px;
+  background: #ddd;
+}
+
+.record-nav .nav-link.active {
+  color: #975ec9;
+  border-bottom: 2px solid #975ec9;
+}

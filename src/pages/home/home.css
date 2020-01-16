@@ -1,0 +1,56 @@
+.home-title {
+  font-size: 20px;
+  color: #975ec9;
+  text-align: left;
+  padding: 15px;
+}
+
+.home-cotainer {
+  padding-top: 40px;
+  background: #f5f5f5;
+  padding-bottom: 40px;
+}
+
+
+
+.form-item {
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  padding-left: 15px;
+}
+
+.form-item label {
+  color: #333;
+  font-size: 18px;
+}
+
+.form-item input {
+  padding: 16px 12px;
+  outline: 0;
+  border: none;
+}
+
+.prod-text {
+  font-size: 20px;
+  color: #999;
+  background: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.nav-link {
+  display: block;
+}
+
+.submit-btn {
+  font-size: 16px;
+  letter-spacing: 4px;
+  width: 90%;
+  margin: 45px auto 0 auto;
+  background: #975ec9;
+  color: #fff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 15px 0;
+}

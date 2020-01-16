@@ -1,0 +1,40 @@
+.record-item {
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #333;
+  background: #fff;
+}
+
+.record-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 16px;
+  color: #999;
+  border-bottom: 1px solid #dfdfdf;
+}
+
+.record-top .status {
+  color: #f20500;
+  text-align: right;
+}
+
+.record-top span {}
+
+.record-info {
+  padding-top: 10px;
+  /* padding-bottom: 10px; */
+}
+
+.record-info .info-item {
+  margin-bottom: 15px;
+}
+
+.record-bottom {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-top: 1px solid #dfdfdf;
+}

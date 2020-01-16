@@ -1,0 +1,30 @@
+.help-main {
+  margin-top: 40px;
+  padding-top: 25px;
+}
+
+.help-title {
+  text-align: center;
+  font-size: 20px;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.help-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.help-title {
+  margin-bottom: 20px;
+}
+
+.help-top {
+  margin-bottom: 30px;
+}
+
+.help-item {
+  padding-left: 30px;
+  margin-bottom: 25px;
+}
