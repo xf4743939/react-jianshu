@@ -22,6 +22,7 @@
 ### study know
 
 - sequelize(https://github.com/demopark/sequelize-docs-Zh-CN)
+- 腾讯云学习文档包含 js vue 等(https://cloud.tencent.com/developer/chapter/13554)
 - node.js+koa2 写的线上博客(https://github.com/LFB/nodejs-koa-blog)
 - article
   1.  [vue 源码](https://zhuanlan.zhihu.com/p/86563729)
