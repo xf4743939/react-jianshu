@@ -1,0 +1,13 @@
+.wrap{
+  position: relative;
+}
+.list{
+  position: absolute;
+  width: 120px;
+  top: 10px;
+  z-index: 1;
+  left: 10px;
+  padding: 10px;
+  border: 1px solid #efefef;
+  box-shadow: -2px 2px 2px 2px #efefef;
+}

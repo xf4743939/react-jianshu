@@ -28,6 +28,11 @@ class TodoList extends Component{
       
       ) 
     }
+   // 组件被更新之前,他会自动执行
+    shouldComponentUpdate(){
+      return true  
+    }
+
     getToDoItem(){
       return this.state.list.map((item,index)=>{
             return (<TodoItem key={index} index={index} deleteItem={this.deleteItem} content={item}></TodoItem>)
@@ -59,8 +64,7 @@ class TodoList extends Component{
           list:arrs
         }
       })
-    }
-    
+    }    
 }
 
 
